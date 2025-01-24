@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="SNIFF.prompts\NotificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\ColorWheel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SNIFF\Geo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\LoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\Mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\MessageAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\PacketAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\rec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\RoundProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SNIFF\simpletextprompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\t.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SNIFF\UserSentmessage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SNIFF\xboxpartyoptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="SNIFF.alert.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SNIFF.Geo.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SNIFF.Properties.Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

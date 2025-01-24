@@ -1,0 +1,602 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>ZOPZ SNIFFER</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="resources\palau.png" />
+    <None Remove="resources\bulgaria.png" />
+    <None Remove="resources\comoros.png" />
+    <None Remove="resources\england.png" />
+    <None Remove="resources\monaco.png" />
+    <None Remove="resources\kosovo.png" />
+    <None Remove="resources\cyprus.png" />
+    <None Remove="resources\sao-tome-and-principe.png" />
+    <None Remove="resources\india.png" />
+    <None Remove="resources\serbia.png" />
+    <None Remove="resources\democratic-republic-of-the-congo.png" />
+    <None Remove="resources\benin.png" />
+    <None Remove="resources\jersey.png" />
+    <None Remove="resources\tajikistan.png" />
+    <None Remove="resources\australia.png" />
+    <None Remove="resources\lesotho.png" />
+    <None Remove="resources\cote-divoire.png" />
+    <None Remove="resources\bhutan.png" />
+    <None Remove="resources\nauru.png" />
+    <None Remove="resources\netherlands.png" />
+    <None Remove="resources\el-salvador.png" />
+    <None Remove="resources\tunisia.png" />
+    <None Remove="resources\sierra-leone.png" />
+    <None Remove="resources\swaziland.png" />
+    <None Remove="resources\china.png" />
+    <None Remove="resources\tanzania.png" />
+    <None Remove="resources\zambia.png" />
+    <None Remove="resources\ghana.png" />
+    <None Remove="resources\mars.png" />
+    <None Remove="resources\united-arab-emirates.png" />
+    <None Remove="resources\mauritania.png" />
+    <None Remove="resources\iceland.png" />
+    <None Remove="resources\romania.png" />
+    <None Remove="resources\lithuania.png" />
+    <None Remove="resources\chile.png" />
+    <None Remove="resources\unlock.png" />
+    <None Remove="resources\slovakia.png" />
+    <None Remove="resources\costa-rica.png" />
+    <None Remove="resources\france.png" />
+    <None Remove="resources\nagorno-karabakh.png" />
+    <None Remove="resources\macau.png" />
+    <None Remove="resources\kyrgyzstan.png" />
+    <None Remove="resources\us-virgin-islands.png" />
+    <None Remove="resources\bahrain.png" />
+    <None Remove="resources\gosquared.png" />
+    <None Remove="resources\czech-republic.png" />
+    <None Remove="resources\aland.png" />
+    <None Remove="resources\nigeria.png" />
+    <None Remove="resources\tuvalu.png" />
+    <None Remove="resources\singapore.png" />
+    <None Remove="resources\fiji.png" />
+    <None Remove="resources\aruba.png" />
+    <None Remove="resources\estonia.png" />
+    <None Remove="resources\gibraltar.png" />
+    <None Remove="resources\jamaica.png" />
+    <None Remove="resources\scotland.png" />
+    <None Remove="resources\mali.png" />
+    <None Remove="resources\united-nations.png" />
+    <None Remove="resources\south-africa.png" />
+    <None Remove="resources\lock.png" />
+    <None Remove="resources\switzerland.png" />
+    <None Remove="resources\ireland.png" />
+    <None Remove="resources\western-sahara.png" />
+    <None Remove="resources\malaysia.png" />
+    <None Remove="resources\greenland.png" />
+    <None Remove="resources\east-timor.png" />
+    <None Remove="resources\uganda.png" />
+    <None Remove="resources\kazakhstan.png" />
+    <None Remove="resources\solomon-islands.png" />
+    <None Remove="resources\turkmenistan.png" />
+    <None Remove="resources\new-zealand.png" />
+    <None Remove="resources\burkina-faso.png" />
+    <None Remove="resources\liberia.png" />
+    <None Remove="resources\search.png" />
+    <None Remove="resources\settings_24px.png" />
+    <None Remove="resources\namibia.png" />
+    <None Remove="resources\armenia.png" />
+    <None Remove="resources\saudi-arabia.png" />
+    <None Remove="resources\hong-kong.png" />
+    <None Remove="resources\montenegro.png" />
+    <None Remove="resources\luxembourg.png" />
+    <None Remove="resources\croatia.png" />
+    <None Remove="resources\puerto-rico.png" />
+    <None Remove="resources\burundi.png" />
+    <None Remove="resources\nicaragua.png" />
+    <None Remove="resources\afghanistan.png" />
+    <None Remove="resources\russia.png" />
+    <None Remove="resources\unknown.png" />
+    <None Remove="resources\united-kingdom.png" />
+    <None Remove="resources\belgium.png" />
+    <None Remove="resources\japan.png" />
+    <None Remove="resources\germany.png" />
+    <None Remove="resources\thailand.png" />
+    <None Remove="resources\liechtenstein.png" />
+    <None Remove="resources\isle-of-man.png" />
+    <None Remove="resources\northern-cyprus.png" />
+    <None Remove="resources\denmark.png" />
+    <None Remove="resources\poland.png" />
+    <None Remove="resources\cuba.png" />
+    <None Remove="resources\turkey.png" />
+    <None Remove="resources\iran.png" />
+    <None Remove="resources\eritrea.png" />
+    <None Remove="resources\iraq.png" />
+    <None Remove="resources\palestine.png" />
+    <None Remove="resources\south-korea.png" />
+    <None Remove="resources\saint-kitts-and-nevis.png" />
+    <None Remove="resources\bahamas.png" />
+    <None Remove="resources\morocco.png" />
+    <None Remove="resources\subtract.png" />
+    <None Remove="resources\oman.png" />
+    <None Remove="resources\saint-martin.png" />
+    <None Remove="resources\myanmar.png" />
+    <None Remove="resources\mauritius.png" />
+    <None Remove="resources\paraguay.png" />
+    <None Remove="resources\cameroon.png" />
+    <None Remove="resources\dominican-republic.png" />
+    <None Remove="resources\jordan.png" />
+    <None Remove="resources\mexico.png" />
+    <None Remove="resources\dominica.png" />
+    <None Remove="resources\basque-country.png" />
+    <None Remove="resources\kenya.png" />
+    <None Remove="resources\bangladesh.png" />
+    <None Remove="resources\nepal.png" />
+    <None Remove="resources\somaliland.png" />
+    <None Remove="resources\northern-mariana-islands.png" />
+    <None Remove="resources\laos.png" />
+    <None Remove="resources\madagascar.png" />
+    <None Remove="resources\uzbekistan.png" />
+    <None Remove="resources\seychelles.png" />
+    <None Remove="resources\micronesia.png" />
+    <None Remove="resources\canada.png" />
+    <None Remove="resources\central-african-republic.png" />
+    <None Remove="resources\cocos-keeling-islands.png" />
+    <None Remove="resources\latvia.png" />
+    <None Remove="resources\argentina.png" />
+    <None Remove="resources\saint-vincent-and-the-grenadines.png" />
+    <None Remove="resources\anguilla.png" />
+    <None Remove="resources\saint-barthelemy.png" />
+    <None Remove="resources\south-sudan.png" />
+    <None Remove="resources\ulock.png" />
+    <None Remove="resources\san-marino.png" />
+    <None Remove="resources\brunei.png" />
+    <None Remove="resources\haiti.png" />
+    <None Remove="resources\mayotte.png" />
+    <None Remove="resources\lebanon.png" />
+    <None Remove="resources\samoa.png" />
+    <None Remove="resources\indonesia.png" />
+    <None Remove="resources\azerbaijan.png" />
+    <None Remove="resources\colombia.png" />
+    <None Remove="resources\norway.png" />
+    <None Remove="resources\gambia.png" />
+    <None Remove="resources\reunion.png" />
+    <None Remove="resources\guernsey.png" />
+    <None Remove="resources\taiwan.png" />
+    <None Remove="resources\barbados.png" />
+    <None Remove="resources\marshall-islands.png" />
+    <None Remove="resources\chad.png" />
+    <None Remove="resources\red-cross.png" />
+    <None Remove="resources\finland.png" />
+    <None Remove="resources\cape-verde.png" />
+    <None Remove="resources\guam.png" />
+    <None Remove="resources\montserrat.png" />
+    <None Remove="resources\gabon.png" />
+    <None Remove="resources\sint-maarten.png" />
+    <None Remove="resources\bermuda.png" />
+    <None Remove="resources\olympics.png" />
+    <None Remove="resources\moldova.png" />
+    <None Remove="resources\belize.png" />
+    <None Remove="resources\zimbabwe.png" />
+    <None Remove="resources\mozambique.png" />
+    <None Remove="resources\sri-lanka.png" />
+    <None Remove="resources\spain.png" />
+    <None Remove="resources\yemen.png" />
+    <None Remove="resources\sweden.png" />
+    <None Remove="resources\andorra.png" />
+    <None Remove="resources\botswana.png" />
+    <None Remove="resources\papua-new-guinea.png" />
+    <None Remove="resources\american-samoa.png" />
+    <None Remove="resources\niue.png" />
+    <None Remove="resources\panama.png" />
+    <None Remove="resources\british-antarctic-territory.png" />
+    <None Remove="resources\faroes.png" />
+    <None Remove="resources\vietnam.png" />
+    <None Remove="resources\vatican-city.png" />
+    <None Remove="resources\maldives.png" />
+    <None Remove="resources\pitcairn-islands.png" />
+    <None Remove="resources\trinidad-and-tobago.png" />
+    <None Remove="resources\belarus.png" />
+    <None Remove="resources\saint-helena.png" />
+    <None Remove="resources\austria.png" />
+    <None Remove="resources\uruguay.png" />
+    <None Remove="resources\egypt.png" />
+    <None Remove="resources\netherlands-antilles.png" />
+    <None Remove="resources\canary-islands.png" />
+    <None Remove="resources\philippines.png" />
+    <None Remove="resources\pakistan.png" />
+    <None Remove="resources\falkland-islands.png" />
+    <None Remove="resources\south-ossetia.png" />
+    <None Remove="resources\suriname.png" />
+    <None Remove="resources\italy.png" />
+    <None Remove="resources\georgia.png" />
+    <None Remove="resources\antarctica.png" />
+    <None Remove="resources\bosnia-and-herzegovina.png" />
+    <None Remove="resources\british-virgin-islands.png" />
+    <None Remove="resources\saint-lucia.png" />
+    <None Remove="resources\guinea-bissau.png" />
+    <None Remove="resources\macedonia.png" />
+    <None Remove="resources\tonga.png" />
+    <None Remove="resources\syria.png" />
+    <None Remove="resources\rwanda.png" />
+    <None Remove="resources\hungary.png" />
+    <None Remove="resources\north-korea.png" />
+    <None Remove="resources\wales.png" />
+    <None Remove="resources\malawi.png" />
+    <None Remove="resources\djibouti.png" />
+    <None Remove="resources\niger.png" />
+    <None Remove="resources\european-union.png" />
+    <None Remove="resources\christmas-island.png" />
+    <None Remove="resources\cambodia.png" />
+    <None Remove="resources\kuwait.png" />
+    <None Remove="resources\greece.png" />
+    <None Remove="resources\mongolia.png" />
+    <None Remove="resources\antigua-and-barbuda.png" />
+    <None Remove="resources\grenada.png" />
+    <None Remove="resources\kiribati.png" />
+    <None Remove="resources\equatorial-guinea.png" />
+    <None Remove="resources\wallis-and-futuna.png" />
+    <None Remove="resources\french-polynesia.png" />
+    <None Remove="resources\israel.png" />
+    <None Remove="resources\portugal.png" />
+    <None Remove="resources\turks-and-caicos-islands.png" />
+    <None Remove="resources\south-georgia-and-the-south-sandwich-islands.png" />
+    <None Remove="resources\guyana.png" />
+    <None Remove="resources\venezuela.png" />
+    <None Remove="resources\united-states.png" />
+    <None Remove="resources\french-southern-territories.png" />
+    <None Remove="resources\ukraine.png" />
+    <None Remove="resources\norfolk-island.png" />
+    <None Remove="resources\bolivia.png" />
+    <None Remove="resources\synchronize_96px.png" />
+    <None Remove="resources\libya.png" />
+    <None Remove="resources\togo.png" />
+    <None Remove="resources\senegal.png" />
+    <None Remove="resources\republic-of-the-congo.png" />
+    <None Remove="resources\guatemala.png" />
+    <None Remove="resources\qatar.png" />
+    <None Remove="resources\malta.png" />
+    <None Remove="resources\honduras.png" />
+    <None Remove="resources\cayman-islands.png" />
+    <None Remove="resources\tokelau.png" />
+    <None Remove="resources\ecuador.png" />
+    <None Remove="resources\ethiopia.png" />
+    <None Remove="resources\cook-islands.png" />
+    <None Remove="resources\catalonia.png" />
+    <None Remove="resources\brazil.png" />
+    <None Remove="resources\somalia.png" />
+    <None Remove="resources\guinea.png" />
+    <None Remove="resources\curacao.png" />
+    <None Remove="resources\vanuatu.png" />
+    <None Remove="resources\sudan.png" />
+    <None Remove="resources\algeria.png" />
+    <None Remove="resources\slovenia.png" />
+    <None Remove="resources\abkhazia.png" />
+    <None Remove="resources\angola.png" />
+    <None Remove="resources\albania.png" />
+    <None Remove="resources\nato.png" />
+    <None Remove="resources\commonwealth.png" />
+    <None Remove="resources\peru.png" />
+    <None Remove="resources\martinique.png" />
+    <None Remove="resources\new-caledonia.png" />
+    <EmbeddedResource Include="resources\palau.png" LogicalName="resources/palau.png" />
+    <EmbeddedResource Include="resources\bulgaria.png" LogicalName="resources/bulgaria.png" />
+    <EmbeddedResource Include="resources\comoros.png" LogicalName="resources/comoros.png" />
+    <EmbeddedResource Include="resources\england.png" LogicalName="resources/england.png" />
+    <EmbeddedResource Include="resources\monaco.png" LogicalName="resources/monaco.png" />
+    <EmbeddedResource Include="resources\kosovo.png" LogicalName="resources/kosovo.png" />
+    <EmbeddedResource Include="resources\cyprus.png" LogicalName="resources/cyprus.png" />
+    <EmbeddedResource Include="resources\sao-tome-and-principe.png" LogicalName="resources/sao-tome-and-principe.png" />
+    <EmbeddedResource Include="resources\india.png" LogicalName="resources/india.png" />
+    <EmbeddedResource Include="resources\serbia.png" LogicalName="resources/serbia.png" />
+    <EmbeddedResource Include="resources\democratic-republic-of-the-congo.png" LogicalName="resources/democratic-republic-of-the-congo.png" />
+    <EmbeddedResource Include="resources\benin.png" LogicalName="resources/benin.png" />
+    <EmbeddedResource Include="resources\jersey.png" LogicalName="resources/jersey.png" />
+    <EmbeddedResource Include="resources\tajikistan.png" LogicalName="resources/tajikistan.png" />
+    <EmbeddedResource Include="resources\australia.png" LogicalName="resources/australia.png" />
+    <EmbeddedResource Include="resources\lesotho.png" LogicalName="resources/lesotho.png" />
+    <EmbeddedResource Include="resources\cote-divoire.png" LogicalName="resources/cote-divoire.png" />
+    <EmbeddedResource Include="resources\bhutan.png" LogicalName="resources/bhutan.png" />
+    <EmbeddedResource Include="resources\nauru.png" LogicalName="resources/nauru.png" />
+    <EmbeddedResource Include="resources\netherlands.png" LogicalName="resources/netherlands.png" />
+    <EmbeddedResource Include="resources\el-salvador.png" LogicalName="resources/el-salvador.png" />
+    <EmbeddedResource Include="resources\tunisia.png" LogicalName="resources/tunisia.png" />
+    <EmbeddedResource Include="resources\sierra-leone.png" LogicalName="resources/sierra-leone.png" />
+    <EmbeddedResource Include="resources\swaziland.png" LogicalName="resources/swaziland.png" />
+    <EmbeddedResource Include="resources\china.png" LogicalName="resources/china.png" />
+    <EmbeddedResource Include="resources\tanzania.png" LogicalName="resources/tanzania.png" />
+    <EmbeddedResource Include="resources\zambia.png" LogicalName="resources/zambia.png" />
+    <EmbeddedResource Include="resources\ghana.png" LogicalName="resources/ghana.png" />
+    <EmbeddedResource Include="resources\mars.png" LogicalName="resources/mars.png" />
+    <EmbeddedResource Include="resources\united-arab-emirates.png" LogicalName="resources/united-arab-emirates.png" />
+    <EmbeddedResource Include="resources\mauritania.png" LogicalName="resources/mauritania.png" />
+    <EmbeddedResource Include="resources\iceland.png" LogicalName="resources/iceland.png" />
+    <EmbeddedResource Include="resources\romania.png" LogicalName="resources/romania.png" />
+    <EmbeddedResource Include="resources\lithuania.png" LogicalName="resources/lithuania.png" />
+    <EmbeddedResource Include="resources\chile.png" LogicalName="resources/chile.png" />
+    <EmbeddedResource Include="resources\unlock.png" LogicalName="resources/unlock.png" />
+    <EmbeddedResource Include="resources\slovakia.png" LogicalName="resources/slovakia.png" />
+    <EmbeddedResource Include="resources\costa-rica.png" LogicalName="resources/costa-rica.png" />
+    <EmbeddedResource Include="resources\france.png" LogicalName="resources/france.png" />
+    <EmbeddedResource Include="resources\nagorno-karabakh.png" LogicalName="resources/nagorno-karabakh.png" />
+    <EmbeddedResource Include="resources\macau.png" LogicalName="resources/macau.png" />
+    <EmbeddedResource Include="resources\kyrgyzstan.png" LogicalName="resources/kyrgyzstan.png" />
+    <EmbeddedResource Include="resources\us-virgin-islands.png" LogicalName="resources/us-virgin-islands.png" />
+    <EmbeddedResource Include="resources\bahrain.png" LogicalName="resources/bahrain.png" />
+    <EmbeddedResource Include="resources\gosquared.png" LogicalName="resources/gosquared.png" />
+    <EmbeddedResource Include="resources\czech-republic.png" LogicalName="resources/czech-republic.png" />
+    <EmbeddedResource Include="resources\aland.png" LogicalName="resources/aland.png" />
+    <EmbeddedResource Include="resources\nigeria.png" LogicalName="resources/nigeria.png" />
+    <EmbeddedResource Include="resources\tuvalu.png" LogicalName="resources/tuvalu.png" />
+    <EmbeddedResource Include="resources\singapore.png" LogicalName="resources/singapore.png" />
+    <EmbeddedResource Include="resources\fiji.png" LogicalName="resources/fiji.png" />
+    <EmbeddedResource Include="resources\aruba.png" LogicalName="resources/aruba.png" />
+    <EmbeddedResource Include="resources\estonia.png" LogicalName="resources/estonia.png" />
+    <EmbeddedResource Include="resources\gibraltar.png" LogicalName="resources/gibraltar.png" />
+    <EmbeddedResource Include="resources\jamaica.png" LogicalName="resources/jamaica.png" />
+    <EmbeddedResource Include="resources\scotland.png" LogicalName="resources/scotland.png" />
+    <EmbeddedResource Include="resources\mali.png" LogicalName="resources/mali.png" />
+    <EmbeddedResource Include="resources\united-nations.png" LogicalName="resources/united-nations.png" />
+    <EmbeddedResource Include="resources\south-africa.png" LogicalName="resources/south-africa.png" />
+    <EmbeddedResource Include="resources\lock.png" LogicalName="resources/lock.png" />
+    <EmbeddedResource Include="resources\switzerland.png" LogicalName="resources/switzerland.png" />
+    <EmbeddedResource Include="resources\ireland.png" LogicalName="resources/ireland.png" />
+    <EmbeddedResource Include="resources\western-sahara.png" LogicalName="resources/western-sahara.png" />
+    <EmbeddedResource Include="resources\malaysia.png" LogicalName="resources/malaysia.png" />
+    <EmbeddedResource Include="resources\greenland.png" LogicalName="resources/greenland.png" />
+    <EmbeddedResource Include="resources\east-timor.png" LogicalName="resources/east-timor.png" />
+    <EmbeddedResource Include="resources\uganda.png" LogicalName="resources/uganda.png" />
+    <EmbeddedResource Include="resources\kazakhstan.png" LogicalName="resources/kazakhstan.png" />
+    <EmbeddedResource Include="resources\solomon-islands.png" LogicalName="resources/solomon-islands.png" />
+    <EmbeddedResource Include="resources\turkmenistan.png" LogicalName="resources/turkmenistan.png" />
+    <EmbeddedResource Include="resources\new-zealand.png" LogicalName="resources/new-zealand.png" />
+    <EmbeddedResource Include="resources\burkina-faso.png" LogicalName="resources/burkina-faso.png" />
+    <EmbeddedResource Include="resources\liberia.png" LogicalName="resources/liberia.png" />
+    <EmbeddedResource Include="resources\search.png" LogicalName="resources/search.png" />
+    <EmbeddedResource Include="resources\settings_24px.png" LogicalName="resources/settings_24px.png" />
+    <EmbeddedResource Include="resources\namibia.png" LogicalName="resources/namibia.png" />
+    <EmbeddedResource Include="resources\armenia.png" LogicalName="resources/armenia.png" />
+    <EmbeddedResource Include="resources\saudi-arabia.png" LogicalName="resources/saudi-arabia.png" />
+    <EmbeddedResource Include="resources\hong-kong.png" LogicalName="resources/hong-kong.png" />
+    <EmbeddedResource Include="resources\montenegro.png" LogicalName="resources/montenegro.png" />
+    <EmbeddedResource Include="resources\luxembourg.png" LogicalName="resources/luxembourg.png" />
+    <EmbeddedResource Include="resources\croatia.png" LogicalName="resources/croatia.png" />
+    <EmbeddedResource Include="resources\puerto-rico.png" LogicalName="resources/puerto-rico.png" />
+    <EmbeddedResource Include="resources\burundi.png" LogicalName="resources/burundi.png" />
+    <EmbeddedResource Include="resources\nicaragua.png" LogicalName="resources/nicaragua.png" />
+    <EmbeddedResource Include="resources\afghanistan.png" LogicalName="resources/afghanistan.png" />
+    <EmbeddedResource Include="resources\russia.png" LogicalName="resources/russia.png" />
+    <EmbeddedResource Include="resources\unknown.png" LogicalName="resources/unknown.png" />
+    <EmbeddedResource Include="resources\united-kingdom.png" LogicalName="resources/united-kingdom.png" />
+    <EmbeddedResource Include="resources\belgium.png" LogicalName="resources/belgium.png" />
+    <EmbeddedResource Include="resources\japan.png" LogicalName="resources/japan.png" />
+    <EmbeddedResource Include="resources\germany.png" LogicalName="resources/germany.png" />
+    <EmbeddedResource Include="resources\thailand.png" LogicalName="resources/thailand.png" />
+    <EmbeddedResource Include="resources\liechtenstein.png" LogicalName="resources/liechtenstein.png" />
+    <EmbeddedResource Include="resources\isle-of-man.png" LogicalName="resources/isle-of-man.png" />
+    <EmbeddedResource Include="resources\northern-cyprus.png" LogicalName="resources/northern-cyprus.png" />
+    <EmbeddedResource Include="resources\denmark.png" LogicalName="resources/denmark.png" />
+    <EmbeddedResource Include="resources\poland.png" LogicalName="resources/poland.png" />
+    <EmbeddedResource Include="resources\cuba.png" LogicalName="resources/cuba.png" />
+    <EmbeddedResource Include="resources\turkey.png" LogicalName="resources/turkey.png" />
+    <EmbeddedResource Include="resources\iran.png" LogicalName="resources/iran.png" />
+    <EmbeddedResource Include="resources\eritrea.png" LogicalName="resources/eritrea.png" />
+    <EmbeddedResource Include="resources\iraq.png" LogicalName="resources/iraq.png" />
+    <EmbeddedResource Include="resources\palestine.png" LogicalName="resources/palestine.png" />
+    <EmbeddedResource Include="resources\south-korea.png" LogicalName="resources/south-korea.png" />
+    <EmbeddedResource Include="resources\saint-kitts-and-nevis.png" LogicalName="resources/saint-kitts-and-nevis.png" />
+    <EmbeddedResource Include="resources\bahamas.png" LogicalName="resources/bahamas.png" />
+    <EmbeddedResource Include="resources\morocco.png" LogicalName="resources/morocco.png" />
+    <EmbeddedResource Include="resources\subtract.png" LogicalName="resources/subtract.png" />
+    <EmbeddedResource Include="resources\oman.png" LogicalName="resources/oman.png" />
+    <EmbeddedResource Include="resources\saint-martin.png" LogicalName="resources/saint-martin.png" />
+    <EmbeddedResource Include="resources\myanmar.png" LogicalName="resources/myanmar.png" />
+    <EmbeddedResource Include="resources\mauritius.png" LogicalName="resources/mauritius.png" />
+    <EmbeddedResource Include="resources\paraguay.png" LogicalName="resources/paraguay.png" />
+    <EmbeddedResource Include="resources\cameroon.png" LogicalName="resources/cameroon.png" />
+    <EmbeddedResource Include="resources\dominican-republic.png" LogicalName="resources/dominican-republic.png" />
+    <EmbeddedResource Include="resources\jordan.png" LogicalName="resources/jordan.png" />
+    <EmbeddedResource Include="resources\mexico.png" LogicalName="resources/mexico.png" />
+    <EmbeddedResource Include="resources\dominica.png" LogicalName="resources/dominica.png" />
+    <EmbeddedResource Include="resources\basque-country.png" LogicalName="resources/basque-country.png" />
+    <EmbeddedResource Include="resources\kenya.png" LogicalName="resources/kenya.png" />
+    <EmbeddedResource Include="resources\bangladesh.png" LogicalName="resources/bangladesh.png" />
+    <EmbeddedResource Include="resources\nepal.png" LogicalName="resources/nepal.png" />
+    <EmbeddedResource Include="resources\somaliland.png" LogicalName="resources/somaliland.png" />
+    <EmbeddedResource Include="resources\northern-mariana-islands.png" LogicalName="resources/northern-mariana-islands.png" />
+    <EmbeddedResource Include="resources\laos.png" LogicalName="resources/laos.png" />
+    <EmbeddedResource Include="resources\madagascar.png" LogicalName="resources/madagascar.png" />
+    <EmbeddedResource Include="resources\uzbekistan.png" LogicalName="resources/uzbekistan.png" />
+    <EmbeddedResource Include="resources\seychelles.png" LogicalName="resources/seychelles.png" />
+    <EmbeddedResource Include="resources\micronesia.png" LogicalName="resources/micronesia.png" />
+    <EmbeddedResource Include="resources\canada.png" LogicalName="resources/canada.png" />
+    <EmbeddedResource Include="resources\central-african-republic.png" LogicalName="resources/central-african-republic.png" />
+    <EmbeddedResource Include="resources\cocos-keeling-islands.png" LogicalName="resources/cocos-keeling-islands.png" />
+    <EmbeddedResource Include="resources\latvia.png" LogicalName="resources/latvia.png" />
+    <EmbeddedResource Include="resources\argentina.png" LogicalName="resources/argentina.png" />
+    <EmbeddedResource Include="resources\saint-vincent-and-the-grenadines.png" LogicalName="resources/saint-vincent-and-the-grenadines.png" />
+    <EmbeddedResource Include="resources\anguilla.png" LogicalName="resources/anguilla.png" />
+    <EmbeddedResource Include="resources\saint-barthelemy.png" LogicalName="resources/saint-barthelemy.png" />
+    <EmbeddedResource Include="resources\south-sudan.png" LogicalName="resources/south-sudan.png" />
+    <EmbeddedResource Include="resources\ulock.png" LogicalName="resources/ulock.png" />
+    <EmbeddedResource Include="resources\san-marino.png" LogicalName="resources/san-marino.png" />
+    <EmbeddedResource Include="resources\brunei.png" LogicalName="resources/brunei.png" />
+    <EmbeddedResource Include="resources\haiti.png" LogicalName="resources/haiti.png" />
+    <EmbeddedResource Include="resources\mayotte.png" LogicalName="resources/mayotte.png" />
+    <EmbeddedResource Include="resources\lebanon.png" LogicalName="resources/lebanon.png" />
+    <EmbeddedResource Include="resources\samoa.png" LogicalName="resources/samoa.png" />
+    <EmbeddedResource Include="resources\indonesia.png" LogicalName="resources/indonesia.png" />
+    <EmbeddedResource Include="resources\azerbaijan.png" LogicalName="resources/azerbaijan.png" />
+    <EmbeddedResource Include="resources\colombia.png" LogicalName="resources/colombia.png" />
+    <EmbeddedResource Include="resources\norway.png" LogicalName="resources/norway.png" />
+    <EmbeddedResource Include="resources\gambia.png" LogicalName="resources/gambia.png" />
+    <EmbeddedResource Include="resources\reunion.png" LogicalName="resources/reunion.png" />
+    <EmbeddedResource Include="resources\guernsey.png" LogicalName="resources/guernsey.png" />
+    <EmbeddedResource Include="resources\taiwan.png" LogicalName="resources/taiwan.png" />
+    <EmbeddedResource Include="resources\barbados.png" LogicalName="resources/barbados.png" />
+    <EmbeddedResource Include="resources\marshall-islands.png" LogicalName="resources/marshall-islands.png" />
+    <EmbeddedResource Include="resources\chad.png" LogicalName="resources/chad.png" />
+    <EmbeddedResource Include="resources\red-cross.png" LogicalName="resources/red-cross.png" />
+    <EmbeddedResource Include="resources\finland.png" LogicalName="resources/finland.png" />
+    <EmbeddedResource Include="resources\cape-verde.png" LogicalName="resources/cape-verde.png" />
+    <EmbeddedResource Include="resources\guam.png" LogicalName="resources/guam.png" />
+    <EmbeddedResource Include="resources\montserrat.png" LogicalName="resources/montserrat.png" />
+    <EmbeddedResource Include="resources\gabon.png" LogicalName="resources/gabon.png" />
+    <EmbeddedResource Include="resources\sint-maarten.png" LogicalName="resources/sint-maarten.png" />
+    <EmbeddedResource Include="resources\bermuda.png" LogicalName="resources/bermuda.png" />
+    <EmbeddedResource Include="resources\olympics.png" LogicalName="resources/olympics.png" />
+    <EmbeddedResource Include="resources\moldova.png" LogicalName="resources/moldova.png" />
+    <EmbeddedResource Include="resources\belize.png" LogicalName="resources/belize.png" />
+    <EmbeddedResource Include="resources\zimbabwe.png" LogicalName="resources/zimbabwe.png" />
+    <EmbeddedResource Include="resources\mozambique.png" LogicalName="resources/mozambique.png" />
+    <EmbeddedResource Include="resources\sri-lanka.png" LogicalName="resources/sri-lanka.png" />
+    <EmbeddedResource Include="resources\spain.png" LogicalName="resources/spain.png" />
+    <EmbeddedResource Include="resources\yemen.png" LogicalName="resources/yemen.png" />
+    <EmbeddedResource Include="resources\sweden.png" LogicalName="resources/sweden.png" />
+    <EmbeddedResource Include="resources\andorra.png" LogicalName="resources/andorra.png" />
+    <EmbeddedResource Include="resources\botswana.png" LogicalName="resources/botswana.png" />
+    <EmbeddedResource Include="resources\papua-new-guinea.png" LogicalName="resources/papua-new-guinea.png" />
+    <EmbeddedResource Include="resources\american-samoa.png" LogicalName="resources/american-samoa.png" />
+    <EmbeddedResource Include="resources\niue.png" LogicalName="resources/niue.png" />
+    <EmbeddedResource Include="resources\panama.png" LogicalName="resources/panama.png" />
+    <EmbeddedResource Include="resources\british-antarctic-territory.png" LogicalName="resources/british-antarctic-territory.png" />
+    <EmbeddedResource Include="resources\faroes.png" LogicalName="resources/faroes.png" />
+    <EmbeddedResource Include="resources\vietnam.png" LogicalName="resources/vietnam.png" />
+    <EmbeddedResource Include="resources\vatican-city.png" LogicalName="resources/vatican-city.png" />
+    <EmbeddedResource Include="resources\maldives.png" LogicalName="resources/maldives.png" />
+    <EmbeddedResource Include="resources\pitcairn-islands.png" LogicalName="resources/pitcairn-islands.png" />
+    <EmbeddedResource Include="resources\trinidad-and-tobago.png" LogicalName="resources/trinidad-and-tobago.png" />
+    <EmbeddedResource Include="resources\belarus.png" LogicalName="resources/belarus.png" />
+    <EmbeddedResource Include="resources\saint-helena.png" LogicalName="resources/saint-helena.png" />
+    <EmbeddedResource Include="resources\austria.png" LogicalName="resources/austria.png" />
+    <EmbeddedResource Include="resources\uruguay.png" LogicalName="resources/uruguay.png" />
+    <EmbeddedResource Include="resources\egypt.png" LogicalName="resources/egypt.png" />
+    <EmbeddedResource Include="resources\netherlands-antilles.png" LogicalName="resources/netherlands-antilles.png" />
+    <EmbeddedResource Include="resources\canary-islands.png" LogicalName="resources/canary-islands.png" />
+    <EmbeddedResource Include="resources\philippines.png" LogicalName="resources/philippines.png" />
+    <EmbeddedResource Include="resources\pakistan.png" LogicalName="resources/pakistan.png" />
+    <EmbeddedResource Include="resources\falkland-islands.png" LogicalName="resources/falkland-islands.png" />
+    <EmbeddedResource Include="resources\south-ossetia.png" LogicalName="resources/south-ossetia.png" />
+    <EmbeddedResource Include="resources\suriname.png" LogicalName="resources/suriname.png" />
+    <EmbeddedResource Include="resources\italy.png" LogicalName="resources/italy.png" />
+    <EmbeddedResource Include="resources\georgia.png" LogicalName="resources/georgia.png" />
+    <EmbeddedResource Include="resources\antarctica.png" LogicalName="resources/antarctica.png" />
+    <EmbeddedResource Include="resources\bosnia-and-herzegovina.png" LogicalName="resources/bosnia-and-herzegovina.png" />
+    <EmbeddedResource Include="resources\british-virgin-islands.png" LogicalName="resources/british-virgin-islands.png" />
+    <EmbeddedResource Include="resources\saint-lucia.png" LogicalName="resources/saint-lucia.png" />
+    <EmbeddedResource Include="resources\guinea-bissau.png" LogicalName="resources/guinea-bissau.png" />
+    <EmbeddedResource Include="resources\macedonia.png" LogicalName="resources/macedonia.png" />
+    <EmbeddedResource Include="resources\tonga.png" LogicalName="resources/tonga.png" />
+    <EmbeddedResource Include="resources\syria.png" LogicalName="resources/syria.png" />
+    <EmbeddedResource Include="resources\rwanda.png" LogicalName="resources/rwanda.png" />
+    <EmbeddedResource Include="resources\hungary.png" LogicalName="resources/hungary.png" />
+    <EmbeddedResource Include="resources\north-korea.png" LogicalName="resources/north-korea.png" />
+    <EmbeddedResource Include="resources\wales.png" LogicalName="resources/wales.png" />
+    <EmbeddedResource Include="resources\malawi.png" LogicalName="resources/malawi.png" />
+    <EmbeddedResource Include="resources\djibouti.png" LogicalName="resources/djibouti.png" />
+    <EmbeddedResource Include="resources\niger.png" LogicalName="resources/niger.png" />
+    <EmbeddedResource Include="resources\european-union.png" LogicalName="resources/european-union.png" />
+    <EmbeddedResource Include="resources\christmas-island.png" LogicalName="resources/christmas-island.png" />
+    <EmbeddedResource Include="resources\cambodia.png" LogicalName="resources/cambodia.png" />
+    <EmbeddedResource Include="resources\kuwait.png" LogicalName="resources/kuwait.png" />
+    <EmbeddedResource Include="resources\greece.png" LogicalName="resources/greece.png" />
+    <EmbeddedResource Include="resources\mongolia.png" LogicalName="resources/mongolia.png" />
+    <EmbeddedResource Include="resources\antigua-and-barbuda.png" LogicalName="resources/antigua-and-barbuda.png" />
+    <EmbeddedResource Include="resources\grenada.png" LogicalName="resources/grenada.png" />
+    <EmbeddedResource Include="resources\kiribati.png" LogicalName="resources/kiribati.png" />
+    <EmbeddedResource Include="resources\equatorial-guinea.png" LogicalName="resources/equatorial-guinea.png" />
+    <EmbeddedResource Include="resources\wallis-and-futuna.png" LogicalName="resources/wallis-and-futuna.png" />
+    <EmbeddedResource Include="resources\french-polynesia.png" LogicalName="resources/french-polynesia.png" />
+    <EmbeddedResource Include="resources\israel.png" LogicalName="resources/israel.png" />
+    <EmbeddedResource Include="resources\portugal.png" LogicalName="resources/portugal.png" />
+    <EmbeddedResource Include="resources\turks-and-caicos-islands.png" LogicalName="resources/turks-and-caicos-islands.png" />
+    <EmbeddedResource Include="resources\south-georgia-and-the-south-sandwich-islands.png" LogicalName="resources/south-georgia-and-the-south-sandwich-islands.png" />
+    <EmbeddedResource Include="resources\guyana.png" LogicalName="resources/guyana.png" />
+    <EmbeddedResource Include="resources\venezuela.png" LogicalName="resources/venezuela.png" />
+    <EmbeddedResource Include="resources\united-states.png" LogicalName="resources/united-states.png" />
+    <EmbeddedResource Include="resources\french-southern-territories.png" LogicalName="resources/french-southern-territories.png" />
+    <EmbeddedResource Include="resources\ukraine.png" LogicalName="resources/ukraine.png" />
+    <EmbeddedResource Include="resources\norfolk-island.png" LogicalName="resources/norfolk-island.png" />
+    <EmbeddedResource Include="resources\bolivia.png" LogicalName="resources/bolivia.png" />
+    <EmbeddedResource Include="resources\synchronize_96px.png" LogicalName="resources/synchronize_96px.png" />
+    <EmbeddedResource Include="resources\libya.png" LogicalName="resources/libya.png" />
+    <EmbeddedResource Include="resources\togo.png" LogicalName="resources/togo.png" />
+    <EmbeddedResource Include="resources\senegal.png" LogicalName="resources/senegal.png" />
+    <EmbeddedResource Include="resources\republic-of-the-congo.png" LogicalName="resources/republic-of-the-congo.png" />
+    <EmbeddedResource Include="resources\guatemala.png" LogicalName="resources/guatemala.png" />
+    <EmbeddedResource Include="resources\qatar.png" LogicalName="resources/qatar.png" />
+    <EmbeddedResource Include="resources\malta.png" LogicalName="resources/malta.png" />
+    <EmbeddedResource Include="resources\honduras.png" LogicalName="resources/honduras.png" />
+    <EmbeddedResource Include="resources\cayman-islands.png" LogicalName="resources/cayman-islands.png" />
+    <EmbeddedResource Include="resources\tokelau.png" LogicalName="resources/tokelau.png" />
+    <EmbeddedResource Include="resources\ecuador.png" LogicalName="resources/ecuador.png" />
+    <EmbeddedResource Include="resources\ethiopia.png" LogicalName="resources/ethiopia.png" />
+    <EmbeddedResource Include="resources\cook-islands.png" LogicalName="resources/cook-islands.png" />
+    <EmbeddedResource Include="resources\catalonia.png" LogicalName="resources/catalonia.png" />
+    <EmbeddedResource Include="resources\brazil.png" LogicalName="resources/brazil.png" />
+    <EmbeddedResource Include="resources\somalia.png" LogicalName="resources/somalia.png" />
+    <EmbeddedResource Include="resources\guinea.png" LogicalName="resources/guinea.png" />
+    <EmbeddedResource Include="resources\curacao.png" LogicalName="resources/curacao.png" />
+    <EmbeddedResource Include="resources\vanuatu.png" LogicalName="resources/vanuatu.png" />
+    <EmbeddedResource Include="resources\sudan.png" LogicalName="resources/sudan.png" />
+    <EmbeddedResource Include="resources\algeria.png" LogicalName="resources/algeria.png" />
+    <EmbeddedResource Include="resources\slovenia.png" LogicalName="resources/slovenia.png" />
+    <EmbeddedResource Include="resources\abkhazia.png" LogicalName="resources/abkhazia.png" />
+    <EmbeddedResource Include="resources\angola.png" LogicalName="resources/angola.png" />
+    <EmbeddedResource Include="resources\albania.png" LogicalName="resources/albania.png" />
+    <EmbeddedResource Include="resources\nato.png" LogicalName="resources/nato.png" />
+    <EmbeddedResource Include="resources\commonwealth.png" LogicalName="resources/commonwealth.png" />
+    <EmbeddedResource Include="resources\peru.png" LogicalName="resources/peru.png" />
+    <EmbeddedResource Include="resources\martinique.png" LogicalName="resources/martinique.png" />
+    <EmbeddedResource Include="resources\new-caledonia.png" LogicalName="resources/new-caledonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\ZOPZ SNIFF\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>D:\ZOPZ SNIFF\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="DiscordRPC">
+      <HintPath>D:\ZOPZ SNIFF\DiscordRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="PcapDotNet.Packets">
+      <HintPath>D:\ZOPZ SNIFF\PcapDotNet.Packets.dll</HintPath>
+    </Reference>
+    <Reference Include="LoginTheme">
+      <HintPath>D:\ZOPZ SNIFF\LoginTheme.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="DnsClient">
+      <HintPath>D:\ZOPZ SNIFF\DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="PcapDotNet.Core">
+      <HintPath>D:\ZOPZ SNIFF\PcapDotNet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>D:\ZOPZ SNIFF\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="PlugWorkFrameWork">
+      <HintPath>D:\ZOPZ SNIFF\PlugWorkFrameWork.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpPcap">
+      <HintPath>..\ZOPZ SNIFF\ZOPZ SNIFF\SharpPcap.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="SocketIOClient">
+      <HintPath>..\ZOPZ SNIFF\ZOPZ SNIFF\SocketIOClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>..\ZOPZ SNIFF\ZOPZ SNIFF\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+</Project>
