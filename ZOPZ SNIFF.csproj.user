@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Forms\Geo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MessageAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\NotificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PacketAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PlayStationTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Rec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SettingsMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Simpletextprompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Xboxpartyoptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControls\FIlterDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserSentmessage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
